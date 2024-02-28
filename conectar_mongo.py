@@ -11,8 +11,8 @@ db = client.loja_db
 # todos eles para  a variável us. Depois fazemos
 # a leitura de todas linha com o for e exibimos
 # na tela
-# for us in db["usuario"].find():
-#     print(us)
+for us in db["usuario"].find():
+    print(us)
 
 
 # Abaixo a consulta realiza o cadastro de um novo usuário e 
